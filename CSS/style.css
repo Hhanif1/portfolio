@@ -1,0 +1,107 @@
+.column-layout {
+
+max-width: 1500px;
+background-color: #000000;
+margin: 40px auto 0 auto;
+line-height: 1.65;
+display: flex;
+padding: 20px 50px}
+
+body {
+background-color: #777777
+	}
+
+p {
+	color: #FFFFFF;
+
+}
+ol{color: #FFFFFF}
+
+
+h1 {text-align: center;
+	font-size: 150px;
+	color: white; }
+
+h2 { color: white; 
+	text-align: center;
+	font-size: 70px;}
+
+h0 { color: white; 
+	text-align: center;
+	font-size: 35px;}	
+
+.main-column{ flex: 3;
+order: 1 ;}
+
+.sidebar-one{
+}
+
+.sidebar-two {
+}
+
+h3 {text-align: center;
+font-size: 40px;}
+
+.call-outs-container {
+	max-width: 1500px;
+	margin: 40px auto 0 auto;
+	 }
+
+
+.call-out {
+	padding: 20px;
+	box-sizing: border-box;
+	margin-bottom: 20px;
+	flex-basis: 40%;
+}
+
+@media (min-width: 1000px) {
+
+.call-outs-container{
+	display: flex; 
+	justify-content: space-between; }
+}
+ 
+.call-out:nth-child(1)
+{background-color: #1ad1ff;}
+.call-out:nth-child(2)
+{background-color: #ff0000;}
+
+.banner{
+	height: 400px;
+	max-width: 700px;
+	margin: 40px auto 40px auto;
+background-image: url("https://www.haagshistorischmuseum.nl/files/2015-03/hga004018739.jpg"); 
+background-size: cover;
+display: flex;
+}
+
+.center-me{
+	color: black;
+	font-size: 50px;
+	margin: auto;
+}
+
+
+.fixed-size-container {
+  max-width: 2000px;
+  margin: 40px auto 0 auto;
+  background-color: black;
+  padding: 30px 0;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+
+.fixed-size {
+  width: 350px;
+  height: 100px;
+  background-color: #990b47;
+  color: #FFF;
+  line-height: 100px;
+  text-align: center;
+  font-weight: bold;
+  font-size: 60px;
+  margin-bottom: 20px;
+}
